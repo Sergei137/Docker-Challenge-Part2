@@ -42,4 +42,4 @@ services: # Defines the application services
         - db_data:/var/lib/mysql # Mounts the db_data volume to /var/lib/mysql in the db container
 
 volumes: # Defines named volumes for persistent storage
-  db_data: # Defines the db_data volume for the db service
+  db_data: # Defines the db_data volume for the db service 
